@@ -1,4 +1,5 @@
 /* ranta.h */
+/*Developer MsrRed*/
 #ifndef ranta_h
 	#define ranta_h
 
