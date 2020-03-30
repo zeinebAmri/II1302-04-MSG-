@@ -24,13 +24,15 @@ body{
     margin-right: auto;
     width: fit-content;
     height: fit-content;
+    margin-top: 20px;
 }
 
 .sub-headline {
 	color: #0A1F44;
 	font-family: "Palatino Linotype";
 	font-size: 20px;
-    display: inline-block;
+  display: inline-block;
+  text-align: center;
 
 }
 
@@ -66,36 +68,23 @@ body{
   margin: auto;
   width: fit-content;
 	overflow: hidden;
-  margin-bottom: 50px;
+  margin-top: 40px;
 }
-.logIn{
-  border-radius: 24px;
-	background-color: #0A1F44;
-	color: #FFFFFF;
-	font-family: "Palatino Linotype";
-	font-size: 18px;
-	text-align: center;
-	cursor: pointer;
-  width: 150px;
-  margin: auto;
-  display: inline-block;
-  height: 40px;
-  margin-right: 8px;
-  
-}
+
 .signUp{
   border-radius: 24px;
 	background-color: #0A1F44;
 	color: #FFFFFF;
 	font-family: "Palatino Linotype";
 	font-size: 18px;
-	text-align: center;
 	cursor: pointer;
-  width: 150px;
-  margin: auto;
-  display: inline-block;
-  height: 40px;
-  margin-left: 8px
+  width: 200px;
+  display: block;
+  height: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+
   
 }
 .divbtn{
@@ -105,23 +94,6 @@ body{
 
 
 
-input{
-  height: 40px;
-  width: 250px;
-  border-radius: 24px;
-  background-color: #FFFFFF;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-color: #FFFFFF;
-  margin-bottom: 15px; 
-  margin-top: 20px; 
-  font-family: "Palatino Linotype";
-  color: #0A1F44;
-  font-size: 18px;
-  text-align: center;
-  border: none;
-  
-}
+
 
 

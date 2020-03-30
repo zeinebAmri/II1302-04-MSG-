@@ -1,15 +1,28 @@
-.questionX{
-	height: 21px;
-	width: 163px;
+.question{
 	color: #0A1F44;
 	font-family: "Palatino Linotype";
-	font-size: 18px;
+	font-size: xx-large;
 	font-weight: 900;
 	line-height: 21px;
 	text-align: center;
   margin-left:auto;
   margin-right:auto;
+  margin-top: 70px;
 }
+
+.question1{
+	color: #0A1F44;
+	font-family: "Palatino Linotype";
+	font-size: x-large;
+	line-height: 21px;
+	text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 70px;
+}
+
+
+
 .categoryDifficulty {
   height: fit-content;
 	width: fit-content;

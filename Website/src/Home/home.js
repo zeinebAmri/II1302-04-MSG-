@@ -16,15 +16,9 @@ class Home extends Component {
   }
 
   newUser() {
-    modelInstance.signUp(localStorage.getItem("user"))
-    .then(result =>{
-      if(result == true){
+    
         window.location.replace('quizStart');
-      }
-      else {
-        alert("Please try again")
-      }
-    });
+     
   }
 
   existingUser(){
@@ -49,22 +43,21 @@ class Home extends Component {
   }
 
   render() {
-    let input = <input  name="username" type="text" onChange={this.onChange} placeholder="Enter your email" id="input"/>;
+   
     return (
     <div className="home">
-      <p className="headline1">Play your way to knowledge</p>
+      <p className="headline1">Welcome to your door-display application!</p>
         <div className="subhead">
-          <p className="sub-headline">and make your tree grow!</p>
+          <p className="sub-headline">Time to update your display!</p>
           <img src = "https://scontent-arn2-1.xx.fbcdn.net/v/t1.15752-9/82016103_474697166522483_8931529490127912960_n.png?_nc_cat=103&_nc_ohc=mR3u3X27U60AQncefPz6-5C5krXMCBhRqwTTWZD4HRdAX1mhw9-DZDkFA&_nc_ht=scontent-arn2-1.xx&oh=e9d2ff7ae0e583b3c96694c04447b849&oe=5E9873E3" className = "bild4"></img>
-      </div>{input}
+      </div>
       <div className ="divbtn">
-        <button className="logIn" onClick={this.existingUser}>Log In</button>
-        <button className="signUp" onClick={this.newUser}>Sign Up</button>
+        <button className="signUp" onClick={this.newUser}>Submit message</button>
       </div>
       <div className="picDiv">
         <img src = "https://images.unsplash.com/photo-1555421689-491a97ff2040?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&dl=austin-distel-Imc-IoZDMXc-unsplash.jpg" className = "bild marginRight"></img>
-        <img src = "https://images.unsplash.com/photo-1471873814584-2120e5ec0211?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&dl=chuttersnap-JhHde49eB0w-unsplash.jpg" className = "bild marginRight"></img>
-        <img src = "https://images.unsplash.com/photo-1546074177-bda3f3e3be1f?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&dl=sincerely-media-8d6Qx7X0aAw-unsplash.jpg" className = "bild"></img>
+        <img src = "https://images.unsplash.com/photo-1522968941782-e27ac665baa3?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=mikhail-derecha-q-XTB-YTsho-unsplash.jpg" className = "bild marginRight"></img>
+        <img src = "https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=toa-heftiba-FV3GConVSss-unsplash.jpg" className = "bild"></img>
       </div>
     </div>
     );
