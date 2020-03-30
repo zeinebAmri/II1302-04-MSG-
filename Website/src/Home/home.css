@@ -1,0 +1,127 @@
+body{
+    background-color: #EFEFEF;
+}
+
+.home{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+.headline1 {
+    width: fit-content;
+	color: #0A1F44;
+	font-family: "Palatino Linotype";
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subhead{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    height: fit-content;
+}
+
+.sub-headline {
+	color: #0A1F44;
+	font-family: "Palatino Linotype";
+	font-size: 20px;
+    display: inline-block;
+
+}
+
+
+.textbtn {
+	color: #0A1F44;
+	font-family: "Palatino Linotype";
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 15px;
+  
+}
+
+
+.bild {
+	height: 200px;
+  width: 300px;
+  margin-top: 30px;
+}
+.marginRight{
+  margin-right: 20px;
+}
+
+.bild4 {
+  height: 38px;
+  width: 40px;
+  display: inline-block;
+  margin-bottom: -5px;
+  margin-left: 5px;
+}
+
+.picDiv{
+  margin: auto;
+  width: fit-content;
+	overflow: hidden;
+  margin-bottom: 50px;
+}
+.logIn{
+  border-radius: 24px;
+	background-color: #0A1F44;
+	color: #FFFFFF;
+	font-family: "Palatino Linotype";
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+  width: 150px;
+  margin: auto;
+  display: inline-block;
+  height: 40px;
+  margin-right: 8px;
+  
+}
+.signUp{
+  border-radius: 24px;
+	background-color: #0A1F44;
+	color: #FFFFFF;
+	font-family: "Palatino Linotype";
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+  width: 150px;
+  margin: auto;
+  display: inline-block;
+  height: 40px;
+  margin-left: 8px
+  
+}
+.divbtn{
+  display: block;
+  text-align: center;
+}
+
+
+
+input{
+  height: 40px;
+  width: 250px;
+  border-radius: 24px;
+  background-color: #FFFFFF;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #FFFFFF;
+  margin-bottom: 15px; 
+  margin-top: 20px; 
+  font-family: "Palatino Linotype";
+  color: #0A1F44;
+  font-size: 18px;
+  text-align: center;
+  border: none;
+  
+}
+
+

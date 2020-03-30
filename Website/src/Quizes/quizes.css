@@ -1,0 +1,9 @@
+body{
+    background-color: #EFEFEF;
+}
+
+.quizes{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}

@@ -1,0 +1,174 @@
+.quizEnd{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.headline2 {
+    width: fit-content;
+	color: #0A1F44;
+	font-family: "Palatino Linotype";
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 34px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.your-results-card {
+	height: 373px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0 18px 18px 0 rgba(10,31,68,0.12), 0 0 1px 0 rgba(10,31,68,0.1);
+    float: left;
+	margin-top: 30px;
+    }
+
+.your-result {
+	color: #0A1F44;
+	font-family: "Palatino Linotype";
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+}
+.tv-series {
+	text-align: center;
+	display: inline;
+}
+.tv-series1 {
+	color: #0A1F44;
+	font-family: "Palatino Linotype";
+	font-size: 16px;
+	font-weight: bold;
+
+}
+.tv7-10 {
+	
+	color: #0A1F44;
+	font-family: "Palatino Linotype";
+	font-size: 15px;
+	
+}
+.total-points {	
+	padding-top: 150px;
+	
+}
+.total {
+	color: #0A1F44;
+	font-family: "Palatino Linotype";
+	font-size: 16px;
+	font-weight: 900;
+	float: left;
+	margin-left: 30px;
+	
+    
+}
+.points {
+
+	color: #0A1F44;
+	font-family: "Palatino Linotype";
+	font-size: 16px;
+	float: right;
+	margin-right: 30px;
+	
+}
+.highscore-card {
+    height: 373px;
+    width: 300px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0 18px 18px 0 rgba(10,31,68,0.12), 0 0 1px 0 rgba(10,31,68,0.1);
+    display: inline-block;
+    margin-top: 30px;
+	margin-left: 40px;
+	float: right;
+	
+    
+    
+}
+.highscore {
+    color: #0A1F44;
+    margin-bottom: 30px;
+	font-family: "Palatino Linotype";
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+.category1 {
+    margin-bottom: 50px;
+	margin-left: 20px;
+	color: #0A1F44;
+	font-family: "Palatino Linotype";
+	font-size: 14px;
+	font-weight: 900;
+	line-height: 16px;
+}
+.rank {
+    margin-bottom: 50px;
+	margin-left: 20px;
+	color: #0A1F44;
+	font-family: "Palatino Linotype";
+	font-size: 14px;
+	font-weight: 900;
+	line-height: 16px;
+}
+.list-of-others {
+	margin-left: 20px;
+	color: #0A1F44;
+	font-family: "Palatino Linotype";
+	font-size: 14px;
+	font-weight: 900;
+	line-height: 16px;
+}
+.background1 {
+	height: 48px;
+	width: 233px;
+	border-radius: 24px;
+    background-color: #0A1F44;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+}
+.continue {
+	height: fit-content;
+	width: fit-content;
+	color: #FFFFFF;
+	font-family: "SF Pro Text";
+	font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 12px;
+    font-weight: lighter;
+    
+    
+}
+.divCenter{
+	overflow: hidden;
+	height: 450px;
+	width: fit-content;
+	margin: auto;
+}
+.highscoreResult{
+	text-align: center;
+	display: inline;
+
+}
+
+.highS{
+	color: #0A1F44;
+	font-family: "Palatino Linotype";
+	font-size: 16px;
+	font-weight: bold;
+	
+}
+.procentP{
+	color: #0A1F44;
+	font-family: "Palatino Linotype";
+	font-size: 16px;
+
+}

@@ -1,0 +1,59 @@
+.aboutus-page1{
+    width: auto;
+	height: auto;
+	text-align: center;
+	
+}
+.aboutus-title1{
+  width: fit-content;
+	color: #0A1F44;
+	font-family: "Palatino Linotype";
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 34px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutus-title2{
+  width: fit-content;
+	color: #0A1F44;
+	font-family: "Palatino Linotype";
+	font-size: 20px;
+	font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutus-title3{
+  width: fit-content;
+	color: #0A1F44;
+	font-family: "Palatino Linotype";
+	font-size: 20px;
+	font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pictures{
+	text-align: center;
+	
+}
+.picture1{
+	height: 280px;
+	width: 380px;
+	margin-top: 30px;
+}
+.picture2{
+	height: 280px;
+	width: 380px;
+	margin-top: 50px;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+.picture3{
+	height: 280px;
+	width: 380px;
+	margin-top: 80px;
+}
+

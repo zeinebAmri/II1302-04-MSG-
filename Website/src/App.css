@@ -1,0 +1,61 @@
+.header {
+  height: 56px;
+  width: 940px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius: 0 0 8px 8px;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 1px 0 rgba(10,31,68,0.08), 0 8px 10px 0 rgba(10,31,68,0.1);
+  margin-bottom: 40px;
+}
+.ajli {
+	height: 20px;
+	width: 39px;
+	color: #000;
+	font-family: "Palatino Linotype";
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 20px;
+  float:left;
+  margin-left: 5px;
+}
+.homeText, .quizes, .about-us, .contact {
+  height: 16px;
+  
+  color: #8A94A6;
+  font-family: "SF Pro Text";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+  float:right;
+  margin-right: 20px;
+}
+.quizes {
+  
+  color: #8A94A6;
+  margin-right: 20px;
+}
+.about-us {
+	
+  color: #8A94A6;
+  margin-right: 20px;
+}
+.contact {
+	
+	color: #8A94A6;
+  margin-right: 20px;
+}
+.logo {
+  height: 48px;
+  width: 52px;
+  float:left;
+  background-color: #FFFFFF;
+  margin-left: 15px;
+}
+a:link{
+  text-decoration: none;
+}
+.homeText:hover, .quizes:hover, .about-us:hover, .contact:hover{
+ color: #0A1F44;
+}
