@@ -22,9 +22,9 @@ class Contact extends Component {
         <p className="contact-title8"> Email: heynes@kth.se</p>
         </div>
         <div className="lj">
-        <img src = "https://scontent-arn2-1.xx.fbcdn.net/v/t1.15752-9/83079743_475401893388176_4168698251089805312_n.jpg?_nc_cat=103&_nc_ohc=SzFvnnOkRfYAX8FKf3R&_nc_ht=scontent-arn2-1.xx&oh=7fd73575ddf8a6e3f70da2c0403eaaa5&oe=5E96D4A0" className="bildlj"></img>
-        <p className="contact-title9">Lou Jönsson</p>
-        <p className="contact-title10"> Email: loujons@kth.se</p>
+        <img src = "https://scontent-hel2-1.xx.fbcdn.net/v/t1.15752-9/92110960_249151219448097_7344709309579657216_n.jpg?_nc_cat=111&_nc_sid=b96e70&_nc_ohc=_eLC5FNgS6MAX-ty-8F&_nc_ht=scontent-hel2-1.xx&oh=f716049feb6e2db7bbba061ad231b895&oe=5EA7C131" className="bildlj"></img>
+        <p className="contact-title9">Cornelia Sundqvist</p>
+        <p className="contact-title10"> Email: cosu@kth.se</p>
         </div></div></div>
     );
   }

@@ -7,36 +7,9 @@ import modelInstance from "../data/QuizModel";
 class Home extends Component {
   constructor(){
     super();
-    this.user = "";
-    modelInstance.resetUser();
+  
   }
 
-  componentDidMount(){
-    modelInstance.addObserver(this);
-  }
-
-  newUser() {
-    
-        window.location.replace('quizStart');
-     
-  }
-
-  existingUser(){
-    modelInstance.logIn(localStorage.getItem("user"))
-    .then(result =>{
-      if(result == true){
-        window.location.replace('quizStart');
-      }
-      else {
-        alert("Please try again")
-      }
-    });
-  }
-
-  onChange = event => {
-    this.user = event.target.value;
-    localStorage.setItem("user", event.target.value);
-  }
 
   update(){
     this.render();
