@@ -71,6 +71,7 @@ class QuizModel extends ObservableModel {
     	});
     }
 
+
     getHighscore() {
       return firebase.database().ref("/users/"+localStorage.getItem("userid")).once('value')
         .then(function(snapshot) {

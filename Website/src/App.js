@@ -3,7 +3,6 @@ import { Route } from "react-router-dom";
 import Home from "./Home/home";
 import modelInstance from "./data/QuizModel";
 import "./App.css";
-import QuizEnd from "./QuizEnd/quizEnd";
 import Question from "./Question/Question";
 import QuizStart from "./QuizStart/quizStart";
 import AboutUs from "./AboutUs/aboutUs";
@@ -56,11 +55,6 @@ export class App extends Component {
       <Route
         path="/question"
         render={() => <Question model={modelInstance} />}
-      />
-
-      <Route
-        path="/quizend"
-        render={() => <QuizEnd model={modelInstance} />}
       />
 
       <Route
