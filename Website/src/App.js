@@ -15,7 +15,7 @@ export class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      title: "AJLI",
+      title: "MSG DLR",
       username:null,
     };
     modelInstance.databaseInistalize();

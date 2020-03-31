@@ -9,8 +9,9 @@ class QuizStart extends Component {
     constructor(props){
       super(props);
       this.state = {
+        userInput: null,
        
-      }
+      };
     }
 
     startQuiz(){

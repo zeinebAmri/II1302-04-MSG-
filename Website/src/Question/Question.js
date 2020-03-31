@@ -7,13 +7,14 @@ import modelInstance from "../data/QuizModel";
 class Question extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+    userInput: null,
+    message: null,
     
-  }
+  };
+}
 
-  displaymsg(){
-    let k = this.props.userInput;
-    return k;
-  }
+
 
   render() {
 
@@ -22,7 +23,7 @@ class Question extends Component {
     return (
     <div className="question">Your submission was successful!
     <div className="question1">The text that will be sumbmitted is: 
-    <div className="question2">{this.displaymsg()}</div>
+    <div className="question2">{this.state.message}</div>
     </div></div>
     );
   }
