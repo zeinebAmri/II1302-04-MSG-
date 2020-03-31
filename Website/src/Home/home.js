@@ -10,6 +10,12 @@ class Home extends Component {
   
   }
 
+  newUser() {
+    
+    window.location.replace('quizStart');
+ 
+}
+
 
   update(){
     this.render();

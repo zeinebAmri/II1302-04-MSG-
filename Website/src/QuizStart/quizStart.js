@@ -4,6 +4,7 @@ import "./quizStart.css";
 import modelInstance from "../data/QuizModel";
 
 
+
 class QuizStart extends Component {
     constructor(props){
       super(props);
@@ -12,6 +13,16 @@ class QuizStart extends Component {
       }
     }
 
+    startQuiz(){
+      let userInput = document.getElementById('message').value;
+      console.log(userInput);
+      window.location.replace('question');
+      return userInput;
+       
+   }
+
+   
+  
 
   render() {
     let input = <input  type="text" id="message" name="message"/>;
@@ -24,7 +35,7 @@ class QuizStart extends Component {
         <button className="startBtnQuiz" onClick={() =>{this.startQuiz()}}>Submit message!</button>
         </div> 
            
-         
+           
    
     );
   
