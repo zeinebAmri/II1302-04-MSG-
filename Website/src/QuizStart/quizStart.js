@@ -10,7 +10,7 @@ class QuizStart extends Component {
       super(props);
       this.state = {
         userInput: null,
-       
+        message: null, 
       };
     }
 

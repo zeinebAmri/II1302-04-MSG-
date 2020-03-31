@@ -14,8 +14,6 @@ class Question extends Component {
   };
 }
 
-
-
   render() {
 
     
