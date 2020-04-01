@@ -22,8 +22,8 @@ class Question extends Component {
     return (
     <div className="question">Your submission was successful!
     <div className="question1">The text that will be sumbmitted is: 
-    <div className="question2"><h2>{message}</h2></div>
-    </div></div>
+    <div className="question2">{message}
+    </div></div></div>
     );
   }
 }
