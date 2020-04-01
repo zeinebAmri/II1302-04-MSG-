@@ -181,7 +181,6 @@ class QuizModel extends ObservableModel {
   getSelectedType(){
     return this.selectedType;
   }
-
   getQuizCategory(){
     return this.categoryList[localStorage.getItem("categoryID")];
   }
