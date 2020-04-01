@@ -1,0 +1,7 @@
+---
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: simple-website-II1302-04
+  name: simple-website-II1302-04
+  memory: 64M
+  stack: cflinuxfs2
