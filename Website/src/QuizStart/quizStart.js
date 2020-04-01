@@ -17,7 +17,7 @@ class QuizStart extends Component {
     startQuiz(){
       let userInput = document.getElementById('message').value;
       console.log(userInput);
-      //window.location.replace('question');
+      window.location.replace('question');
    }
 
   render() {
