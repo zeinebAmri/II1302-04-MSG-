@@ -1,8 +1,8 @@
 import ObservableModel from "./ObservableModel";
-import * as firebase from "firebase/app";
+/*import * as firebase from "firebase/app";
 import "firebase/auth";
 import "firebase/firestore";
-import "firebase/database";
+import "firebase/database"; */
 
 const API_URL = "https://opentdb.com";
 
@@ -21,7 +21,7 @@ class QuizModel extends ObservableModel {
     this.userID = null;
     this.highScore = null;
   }
-
+/*
   databaseInistalize(){
     const config = {
       apiKey: "AIzaSyCL_BFKuiVGND2hhCPvdm_nq2EbWDbRjAg",
@@ -100,7 +100,7 @@ class QuizModel extends ObservableModel {
       localStorage.setItem("username", null);
       localStorage.setItem("counter", 0);
     }
-
+*/
   getQuestions(){
     let amount = localStorage.getItem("numOfQuestions");
     let difficulty = localStorage.getItem("difficulty");
@@ -181,6 +181,7 @@ class QuizModel extends ObservableModel {
   getSelectedType(){
     return this.selectedType;
   }
+  
   getQuizCategory(){
     return this.categoryList[localStorage.getItem("categoryID")];
   }
