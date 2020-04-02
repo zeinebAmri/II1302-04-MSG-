@@ -2,6 +2,7 @@ body{
 	background-color: #efefef;
 	margin: 0;
 }
+
 .headline {
 	color: #0A1F44;
 	font-family: "Palatino Linotype";
@@ -12,13 +13,12 @@ body{
 	margin-bottom: 20px;
 }
 
-
 input{
 	height: 350px;
 	width: 350px;
 	display: block;
 	margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
 	border-radius: 24px;
 	background-color: #FFFFFF;
 	border-color: #FFFFFF;
@@ -27,33 +27,21 @@ input{
 	font-size: 18px;
 	border: none;
 	padding: 12px 20px;
-	
-  }
-  .text{
-	font-family: "Palatino Linotype";
-	color: #0A1F44;
-	font-size: 18px;
-	margin-left: 10px;
-	margin-top: 10px;
+}
 
-  }
-
-  .headtext1{
+.headtext1{
 	display: block;
 	text-align: center;
 	font-family: "Palatino Linotype";
 	color: #0A1F44;
 	font-size: 18px;
 	margin-bottom: 20px;
-	
+}
 
-  }
-
-
-.startBtnQuiz{
+.submitBtn{
 	display: block;
 	margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
 	border-radius: 24px;
 	background-color: #0A1F44;
 	color: #FFFFFF;
@@ -65,21 +53,9 @@ input{
 	padding: 15px 10px 15px 10px;
 	cursor: pointer;
 	margin-top: 20px;
-	
-	
-	
 }
 
 #message {
 	padding-top: 5px;
 	padding-bottom: 15px;
-  }
-
-
-.leftside{
-	display: inline-block;
-	text-align: center;
 }
-
-
-

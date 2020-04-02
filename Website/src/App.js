@@ -1,14 +1,13 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
-import Home from "./Home/home";
-import modelInstance from "./data/QuizModel";
-import "./App.css";
-import Question from "./Question/Question";
-import QuizStart from "./QuizStart/quizStart";
-import AboutUs from "./AboutUs/aboutUs";
 import { Link } from "react-router-dom";
+import "./App.css";
+import modelInstance from "./data/DisplayModel";
+import Home from "./Home/home";
+import Confirm from "./Confirm/Confirm";
+import Message from "./Message/Message";
+import AboutUs from "./AboutUs/aboutUs";
 import Contact from "./Contact/contact";
-
 
 export class App extends Component {
   constructor(props) {
@@ -17,19 +16,16 @@ export class App extends Component {
       title: "MSG DLVRY",
       username:null,
     };
-    modelInstance.databaseInistalize();
-    modelInstance.populateArray();
   }
 
   render() {
-
     return (
     <div className="App">
       <header className="App-header">
         <div className="header">
           <Link to="/">
-            <img className="logo" src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.15752-9/81941738_2827638963959351_4037664515490316288_n.png?_nc_cat=101&_nc_ohc=4Yoloc1KL7AAQn8QiWSudnHK6PVBmxNlGmSQ1jATv10lnAXW2PKkdNAfw&_nc_ht=scontent-arn2-1.xx&oh=816d7dfdfee239d2e75f275ac53617ef&oe=5EAFE9FC"></img>
-            <p className="ajli" onClick={() =>{modelInstance.resetUser()}}>{this.state.title}</p>
+            <img className="logo" alt="logo" src="https://scontent-arn2-1.xx.fbcdn.net/v/t1.15752-9/81941738_2827638963959351_4037664515490316288_n.png?_nc_cat=101&_nc_ohc=4Yoloc1KL7AAQn8QiWSudnHK6PVBmxNlGmSQ1jATv10lnAXW2PKkdNAfw&_nc_ht=scontent-arn2-1.xx&oh=816d7dfdfee239d2e75f275ac53617ef&oe=5EAFE9FC"></img>
+            <p className="msgDlvry">MSG DLVRY</p>
           </Link>
           <Link to="/contact">
             <p className="contact">Contact</p>
@@ -38,30 +34,25 @@ export class App extends Component {
             <p className="about-us">About us</p>
           </Link>
           <Link to="/">
-            <p className="homeText" onClick = {() => {modelInstance.resetUser()}}>Home</p>
+            <p className="homeText">Home</p>
           </Link>
 
         </div>
           {/* We rended diffrent component based on the path */}
       <Route exact path="/" component={Home} />
 
-      <Route
-        path="/quizes"
-        render={() => <QuizStart model={modelInstance} />}
-      />
       <Route path="/aboutus" component={AboutUs}/>
       <Route path="/contact" component={Contact}/>
 
       <Route
-        path="/question"
-        render={() => <Question model={modelInstance} />}
+        path="/confirm"
+        render={() => <Confirm model={modelInstance} />}
       />
 
       <Route
-        path="/quizStart"
-        render={() => <QuizStart model={modelInstance} />}
+        path="/message"
+        render={() => <Message model={modelInstance} />}
       />
-
 
       <Route
         path="/search"
@@ -72,4 +63,5 @@ export class App extends Component {
     );
   }
 }
+
 export default App;

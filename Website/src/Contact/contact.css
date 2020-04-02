@@ -1,115 +1,127 @@
-.contact-page1{
-    width: auto;
-    height: auto;
+.contact-page1 {
+  width: auto;
+  height: auto;
 }
-.contact-title1{
+
+.contact-title1 {
   width: fit-content;
-	color: #0A1F44;
-	font-family: "Palatino Linotype";
-	font-size: 28px;
-	font-weight: bold;
-	line-height: 34px;
+  color: #0A1F44;
+  font-family: "Palatino Linotype";
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 34px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.contact-title3{
+.contact-title3 {
   width: fit-content;
-	color: #0A1F44;
-	font-family: "Palatino Linotype";
-	font-size: 22px;
+  color: #0A1F44;
+  font-family: "Palatino Linotype";
+  font-size: 22px;
   font-weight: bold;
 }
 
-.contact-title4{
+.contact-title4 {
   width: fit-content;
-	color: #0A1F44;
-	font-family: "Palatino Linotype";
-	font-size: 18px;
-  font-weight: bold;  
+  color: #0A1F44;
+  font-family: "Palatino Linotype";
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.bildjb{
+.bildjb {
   height: 240px;
-  width: 200px; 
+  width: 200px;
 }
-.jb{
+
+.jb {
   margin-top: 30px;
   display: inline-block;
 }
 
-.contact-title5{
+.contact-title5 {
   width: fit-content;
-	color: #0A1F44;
-	font-family: "Palatino Linotype";
-	font-size: 22px;
-  font-weight: bold;  
-}
-.contact-title6{
-  width: fit-content;
-	color: #0A1F44;
-	font-family: "Palatino Linotype";
-	font-size: 18px;
-  font-weight: bold;  
-}
-.bildir{
-  height: 240px;
-  width: 200px; 
-}
-.ir{
-  margin-top: 30px;
-  margin-left: 100px;
-  display: inline-block;
+  color: #0A1F44;
+  font-family: "Palatino Linotype";
+  font-size: 22px;
+  font-weight: bold;
 }
 
-.contact-title7{
+.contact-title6 {
   width: fit-content;
-	color: #0A1F44;
-	font-family: "Palatino Linotype";
-	font-size: 22px;
-  font-weight: bold;  
+  color: #0A1F44;
+  font-family: "Palatino Linotype";
+  font-size: 18px;
+  font-weight: bold;
 }
-.contact-title8{
-  width: fit-content;
-	color: #0A1F44;
-	font-family: "Palatino Linotype";
-	font-size: 18px;
-  font-weight: bold;  
-}
-.bildah{
+
+.bildir {
   height: 240px;
-  width: 200px; 
+  width: 200px;
 }
-.ah{
+
+.ir {
   margin-top: 30px;
   margin-left: 100px;
   display: inline-block;
 }
 
-.contact-title9{
+.contact-title7 {
   width: fit-content;
-	color: #0A1F44;
-	font-family: "Palatino Linotype";
-	font-size: 22px;
-  font-weight: bold;  
+  color: #0A1F44;
+  font-family: "Palatino Linotype";
+  font-size: 22px;
+  font-weight: bold;
 }
-.contact-title10{
+
+.contact-title8 {
   width: fit-content;
-	color: #0A1F44;
-	font-family: "Palatino Linotype";
-	font-size: 18px;
-  font-weight: bold;  
+  color: #0A1F44;
+  font-family: "Palatino Linotype";
+  font-size: 18px;
+  font-weight: bold;
 }
-.bildlj{
+
+.bildah {
   height: 240px;
-  width: 200px; 
+  width: 200px;
 }
-.lj{
+
+.ah {
   margin-top: 30px;
   margin-left: 100px;
   display: inline-block;
 }
-.founders{
+
+.contact-title9 {
+  width: fit-content;
+  color: #0A1F44;
+  font-family: "Palatino Linotype";
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.contact-title10 {
+  width: fit-content;
+  color: #0A1F44;
+  font-family: "Palatino Linotype";
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.bildlj {
+  height: 240px;
+  width: 200px;
+}
+
+.lj {
+  margin-top: 30px;
+  margin-left: 100px;
+  display: inline-block;
+}
+
+.founders {
   text-align: center;
   margin-top: 70px;
 }

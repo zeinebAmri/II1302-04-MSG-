@@ -1,57 +1,46 @@
 body{
-    background-color: #EFEFEF;
+  background-color: #EFEFEF;
 }
 
 .home{
-    width: auto;
-    height: auto;
-    overflow: hidden;
+  width: auto;
+  height: auto;
+  overflow: hidden;
 }
 
 .headline1 {
-    width: fit-content;
-	color: #0A1F44;
-	font-family: "Palatino Linotype";
-	font-size: 28px;
-	font-weight: bold;
-	line-height: 20px;
-    margin-left: auto;
-    margin-right: auto;
+  width: fit-content;
+  color: #0A1F44;
+  font-family: "Palatino Linotype";
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .subhead{
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
-    height: fit-content;
-    margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 20px;
 }
 
 .sub-headline {
-	color: #0A1F44;
-	font-family: "Palatino Linotype";
-	font-size: 20px;
+  color: #0A1F44;
+  font-family: "Palatino Linotype";
+  font-size: 20px;
   display: inline-block;
   text-align: center;
-
 }
-
-
-.textbtn {
-	color: #0A1F44;
-	font-family: "Palatino Linotype";
-  font-weight: lighter;
-  text-align: center;
-  padding-top: 15px;
-  
-}
-
 
 .bild {
-	height: 200px;
+  height: 200px;
   width: 300px;
   margin-top: 30px;
 }
+
 .marginRight{
   margin-right: 20px;
 }
@@ -64,36 +53,29 @@ body{
   margin-left: 5px;
 }
 
-.picDiv{
+.picDiv {
   margin: auto;
   width: fit-content;
-	overflow: hidden;
+  overflow: hidden;
   margin-top: 40px;
 }
 
-.signUp{
+.newPage {
   border-radius: 24px;
-	background-color: #0A1F44;
-	color: #FFFFFF;
-	font-family: "Palatino Linotype";
-	font-size: 18px;
-	cursor: pointer;
+  background-color: #0A1F44;
+  color: #FFFFFF;
+  font-family: "Palatino Linotype";
+  font-size: 18px;
+  cursor: pointer;
   width: 200px;
   display: block;
   height: 45px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
-
-  
 }
-.divbtn{
+
+.divbtn {
   display: block;
   text-align: center;
 }
-
-
-
-
-
-
